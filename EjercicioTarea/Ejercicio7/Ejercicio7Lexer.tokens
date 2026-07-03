@@ -1,0 +1,7 @@
+INT=1
+IDT=2
+NUM=3
+ASG=4
+WS=5
+'int'=1
+'='=4
