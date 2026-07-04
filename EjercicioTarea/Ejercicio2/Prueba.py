@@ -1,8 +1,11 @@
 from antlr4 import *
 
 from Ejercicio2Lexer import Ejercicio2Lexer
+import sys
 
-lexer = Ejercicio2Lexer(InputStream(input("? ")))
+input_stream = FileStream(sys.argv[1])
+
+lexer = Ejercicio2Lexer(input_stream)
 
 tokens = CommonTokenStream(lexer)
 tokens.fill()
