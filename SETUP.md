@@ -57,7 +57,7 @@ Ajustar la ruta según donde tengas o clones el proyecto.
 Esta variable le dice a Java dónde está el `.jar` de ANTLR. Se define **una vez por sesión de PowerShell** (no persiste si cierras la terminal, a menos que la configures como variable de entorno permanente del sistema).
 
 ```powershell
-$env:CLASSPATH = "C:\Users\<tu_usuario>\Desktop\University\BackupFromOldDrive\Automatas2\Homeworks\antlr-4.13.2-complete.jar"
+$env:CLASSPATH = "C:\Users\<tu_usuario>\Desktop\University\BackupFromOldDrive\Automatas2\antlr-4.13.2-complete.jar"
 ```
 
 Verificar que quedó bien seteada:
@@ -214,7 +214,7 @@ cd C:\Users\<tu_usuario>\Desktop\University\BackupFromOldDrive\Automatas2\Compet
 .\venv\Scripts\Activate.ps1
 
 # 3. (Si no persiste entre sesiones) Configurar CLASSPATH
-$env:CLASSPATH = "C:\Users\<tu_usuario>\Desktop\University\BackupFromOldDrive\Automatas2\Homeworks\antlr-4.13.2-complete.jar"
+$env:CLASSPATH = "C:\Users\<tu_usuario>\Desktop\University\BackupFromOldDrive\Automatas2\antlr-4.13.2-complete.jar"
 
 # 4. Entrar a la carpeta del ejercicio deseado
 cd Ejercicio1
